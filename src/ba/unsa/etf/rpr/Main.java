@@ -48,7 +48,6 @@ public class Main {
 //      rjesavaju preko koda. Kupcu je potrebno omoguciti opciju da se prekine program, odnosno da odustane od kupovine,
 //      ili da ide na checkout gdje se obracunava potpuni iznos. Placanje se vrsi unosom pri cemu se validira da li je
 //      unesena negativna, odnosno dovoljna suma novca.
-        System.out.println("TEST");
         unosArtikalaUMarket();
         for(;;){
             System.out.print("0 - odustani\n1 - dodaj u korpu\n2 - izbaci iz korpe\n3 - checkout\nUnesite opciju: ");
