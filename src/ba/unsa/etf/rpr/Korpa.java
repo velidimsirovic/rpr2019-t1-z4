@@ -18,6 +18,7 @@ public class Korpa {
                 izbacen = artikli[i];
                 for (int j = i; j < trenutnoArtikala - 1; j++) artikli[j] = artikli[j + 1];
                 trenutnoArtikala = trenutnoArtikala - 1;
+                artikli[trenutnoArtikala] = null;
             }
         }
         return izbacen;
