@@ -19,12 +19,14 @@ public class Supermarket {
 
     public boolean dodajArtikl(Artikl artikl){
         if (trenutnoArtikala == 1000) return false;
-        artikli[trenutnoArtikala] = artikl;
+        artikli[trenutnoArtikala] = new Artikl(artikl);
         trenutnoArtikala = trenutnoArtikala + 1;
         return true;
     }
 
     public Artikl[] getArtikli() {
-        return artikli;
+        Artikl[] kopija = new Artikl[1000];
+        for (int i = 0; i < trenutnoArtikala; i++) kopija[i] = new Artikl(artikli[i]);
+        return kopija;
     }
 }

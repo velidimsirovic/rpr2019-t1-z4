@@ -9,6 +9,12 @@ public class Artikl {
         this.kod = kod;
     }
 
+    Artikl(Artikl a){
+        this.naziv = a.naziv;
+        this.cijena = a.cijena;
+        this.kod = a.kod;
+    }
+
     public String getNaziv() {
         return naziv;
     }
