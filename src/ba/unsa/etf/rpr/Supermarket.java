@@ -29,4 +29,8 @@ public class Supermarket {
         for (int i = 0; i < trenutnoArtikala; i++) kopija[i] = new Artikl(artikli[i]);
         return kopija;
     }
+
+    public int getTrenutnoArtikala(){
+        return trenutnoArtikala;
+    }
 }

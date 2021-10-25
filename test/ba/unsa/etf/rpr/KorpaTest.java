@@ -12,7 +12,7 @@ class KorpaTest {
         assertAll("dodavanje",
                 () -> assertTrue(k.dodajArtikl(a1)),
                 () -> assertTrue(k.dodajArtikl(a2)),
-                () -> assertEquals(2, k.dajTrenutnoArtikala())
+                () -> assertEquals(2, k.getTrenutnoArtikala())
         );
     }
 

@@ -36,7 +36,7 @@ public class Korpa {
         return kopija;
     }
 
-    public int dajTrenutnoArtikala() {
+    public int getTrenutnoArtikala() {
         return trenutnoArtikala;
     }
 
